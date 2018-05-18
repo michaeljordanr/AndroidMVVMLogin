@@ -10,6 +10,9 @@ public class User extends BaseObservable {
     @NonNull
     private String email, password;
 
+    public User() {
+    }
+
     public User(@NonNull String email, @NonNull String password) {
         this.email = email;
         this.password = password;
